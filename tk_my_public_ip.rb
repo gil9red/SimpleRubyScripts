@@ -1,6 +1,8 @@
 #!/usr/bin/ruby
 
 require 'tk'
+require 'open-uri'
+require 'json'
 
 app = TkRoot.new {
   title "Window"
@@ -15,9 +17,6 @@ but = TkButton.new(app) {
   text "Get IP!"
   pack {}
   command proc {
-    require 'open-uri'
-    require 'json'
-
     url = 'http://jsonip.com/'
     rs = open(url)
     data = JSON.load(rs)
