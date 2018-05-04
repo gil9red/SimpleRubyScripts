@@ -32,8 +32,10 @@ button = TkButton.new(app) {
     url = 'http://jsonip.com/'
     rs = open(url)
     data = JSON.load(rs)
+    ip = data['ip']
 
-    label.text = data['ip']
+    puts ip
+    label.text = ip
   }
 }
 
