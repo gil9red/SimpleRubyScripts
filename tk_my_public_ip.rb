@@ -25,7 +25,7 @@ label = TkLabel.new(app) {
   pack {}
 }
 
-but = TkButton.new(app) {
+button = TkButton.new(app) {
   text "Get IP!"
   pack {}
   command proc {

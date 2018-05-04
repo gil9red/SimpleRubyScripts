@@ -18,12 +18,12 @@ app = TkRoot.new {
 }
 center_window(app)
 
-line_edit1 = TkEntry.new(app) { pack {} }
+line_edit = TkEntry.new(app) { pack {} }
 label1 = TkLabel.new(app) { pack {} }
 label2 = TkLabel.new(app) { pack {} }
 
-line_edit1.bind("KeyRelease", proc {
-  text = line_edit1.get
+line_edit.bind("KeyRelease", proc {
+  text = line_edit.get
   label1['text'] = text
   label2['text'] = text.reverse
 })
