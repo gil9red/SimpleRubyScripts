@@ -8,6 +8,15 @@ puts "Hello %s!" % [text]
 puts "Hello #{text}!"
 puts
 
+def say(name='Ruby')
+  puts "Hello #{name}!"
+end
+
+say()
+say('RUBY')
+say(name='RUBY')
+puts
+
 class Foo
   attr_reader :name
   def initialize(name)
