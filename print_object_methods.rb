@@ -1,3 +1,3 @@
 #!/usr/bin/ruby
 
-puts 'Hello Ruby!'.methods.sort
+puts 'From String: ', ''.methods.sort
