@@ -8,7 +8,7 @@ app = TkRoot.new {
 
 line_edit1 = TkEntry.new(app) { pack {} }
 label1 = TkLabel.new(app) { pack {} }
-label2 = TkLabel.new(app) { pack{} }
+label2 = TkLabel.new(app) { pack {} }
 
 line_edit1.bind("KeyRelease", proc {
   text = line_edit1.get
