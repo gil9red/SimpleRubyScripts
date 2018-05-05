@@ -17,6 +17,9 @@ HTML
 doc = Nokogiri::HTML(html_str)
 puts doc
 puts
+puts doc.text.inspect
+puts doc.content.inspect
+puts
 
 puts 'TITLE: ' + doc.at_xpath('//title')
 puts 'TITLE: ' + doc.at_xpath('//title').content
