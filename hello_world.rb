@@ -9,10 +9,13 @@ puts "Hello #{text}!"
 puts
 
 def say(name='Ruby')
-  puts "Hello #{name}!"
+  text = "Hello #{name}!"
+  puts text
+  return text
 end
 
 say()
+puts say()
 say('RUBY')
 say(name='RUBY')
 puts
