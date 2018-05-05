@@ -17,7 +17,7 @@ text2 = <<MY_TEXT
 MY_TEXT
 
 text3 = <<X
-2 + 2 * 2 = #{2 + 2 * 2}
+2 + 2 * 2 = #{ 2 + 2 * 2 }
 X
 
 puts text2

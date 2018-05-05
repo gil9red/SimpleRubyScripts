@@ -37,7 +37,7 @@ puts doc.css('Id').map { |i| i.text }.inspect
 puts
 
 def print_things!(things)
-  puts "Things (#{things.length}):"
+  puts "Things (#{ things.length }):"
 
   things.each do |thing|
     puts "    Id: '#{ thing.at_xpath('Id').content }', Name: '#{ thing.at_xpath('Name').content }'"

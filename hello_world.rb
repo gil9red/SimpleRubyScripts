@@ -10,7 +10,7 @@ puts "Hello #{text}!"
 puts
 
 def say(name='Ruby')
-  text = "Hello #{name}!"
+  text = "Hello #{ name }!"
   puts text
   return text
 end
@@ -28,10 +28,10 @@ class Foo
   end
 
   def say()
-    puts "Hello #{@name}!"
+    puts "Hello #{ @name }!"
   end
 end
 
 d = Foo.new("Ruby")
-puts "Hello #{d.name}!"
+puts "Hello #{ d.name }!"
 d.say()
