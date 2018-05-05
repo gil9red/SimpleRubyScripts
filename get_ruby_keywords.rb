@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 
+
 require 'irb/ruby-token'
 
 keywords = RubyToken::TokenDefinitions.select { |definition| definition[1] == RubyToken::TkId }

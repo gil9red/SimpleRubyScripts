@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 
+
 require 'tk'
 
 def center_window(root, width=300, height=200)
