@@ -31,3 +31,10 @@ p text.scan(/[[:word:]]+/)
 
 # ["The", "string", "from", "which", "you", "want", "to", "get", "a", "list", "of", "words"]
 p text.scan(/\b\w+\b/)
+
+puts
+
+# Case-insensitive regular expression
+p "Hello Ruby!".match(/ruby/)   # nil
+p "Hello Ruby!".match(/Ruby/)   # #<MatchData "Ruby">
+p "Hello Ruby!".match(/ruby/i)  # #<MatchData "Ruby">
