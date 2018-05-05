@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#! /usr/bin/env ruby
 
 
 puts 'Current dir:  ' + File.dirname(__FILE__)
