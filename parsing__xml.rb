@@ -24,16 +24,16 @@ puts
 
 # xpath    -- list items
 # at_xpath -- item
-puts doc.xpath('//Id').inspect
-puts doc.at_xpath('//Id').inspect
+p doc.xpath('//Id')
+p doc.at_xpath('//Id')
 puts
 # css    -- list items
 # at_css -- item
-puts doc.css('Id').inspect
-puts doc.at_css('Id').inspect
+p doc.css('Id')
+p doc.at_css('Id')
 puts
 
-puts doc.css('Id').map { |i| i.text }.inspect
+p doc.css('Id').map { |i| i.text }
 puts
 
 def print_things!(things)

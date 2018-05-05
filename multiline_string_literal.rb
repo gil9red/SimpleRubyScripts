@@ -9,7 +9,7 @@ Hello World!
 MY_TEXT
 
 puts text
-puts text.inspect
+p text
 puts
 
 text2 = <<MY_TEXT

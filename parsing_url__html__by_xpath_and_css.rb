@@ -13,17 +13,17 @@ doc = Nokogiri::HTML(html_text)
 
 puts "### Search for nodes by css"
 doc.css('nav ul.menu li a', 'article h2').each do |link|
-  puts link.content.inspect
+  p link.content
 end
 puts
 
 puts "### Search for nodes by xpath"
 doc.xpath('//nav//ul//li/a', '//article//h2').each do |link|
-  puts link.content.inspect
+  p link.content
 end
 puts
 
 puts "### Or mix and match."
 doc.search('nav ul.menu li a', '//article//h2').each do |link|
-  puts link.content.inspect
+  p link.content
 end

@@ -2,16 +2,16 @@
 
 
 # List
-puts [1, 2, 3, 4, 5, 6, 7, 8, 9].inspect
+p [1, 2, 3, 4, 5, 6, 7, 8, 9]
 puts
-puts 'Hello Ruby!'.split('').map { |i| i + '!' }.inspect
-puts [1, 2, 3, 4, 5].map { |i| i ** 2 }.inspect
-puts [1, 2, 3, 4, 5].map { |i| i ** 2 }.map { |i| i.to_s }.inspect
+p 'Hello Ruby!'.split('').map { |i| i + '!' }
+p [1, 2, 3, 4, 5].map { |i| i ** 2 }
+p [1, 2, 3, 4, 5].map { |i| i ** 2 }.map { |i| i.to_s }
 puts
 
 # Range
-puts (1..9).map { |i| i }.inspect
-puts (1..9).to_a.inspect
+p (1..9).map { |i| i }
+p (1..9).to_a
 puts
-puts ('a'..'z').to_a.inspect
-puts ('A'..'Z').to_a.inspect
+p ('a'..'z').to_a
+p ('A'..'Z').to_a

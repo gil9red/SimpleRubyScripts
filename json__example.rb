@@ -17,5 +17,5 @@ JSON
 
 data = JSON.load(text)
 puts data
-puts data['items'].inspect
+p data['items']
 puts data['tree']['root']['node']
