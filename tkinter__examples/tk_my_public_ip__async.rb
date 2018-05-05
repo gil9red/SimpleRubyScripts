@@ -5,6 +5,7 @@ require 'tk'
 require 'open-uri'
 require 'json'
 
+
 def center_window(root, width=300, height=200)
     # get screen width and height
     screen_width = root.winfo_screenwidth()

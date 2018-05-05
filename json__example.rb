@@ -3,6 +3,7 @@
 
 require 'json'
 
+
 text = <<JSON
 {
     "value": 1,

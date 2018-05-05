@@ -3,6 +3,7 @@
 
 require 'nokogiri'
 
+
 html_str = <<HTML
 <html>
     <head>

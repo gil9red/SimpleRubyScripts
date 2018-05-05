@@ -3,6 +3,7 @@
 
 require 'digest'
 
+
 text = 'Hello World'
 
 puts Digest::MD5.hexdigest(text)
