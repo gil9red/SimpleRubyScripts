@@ -1,7 +1,11 @@
 #! /usr/bin/env ruby
 
+
 require 'nokogiri'
 require 'open-uri'
+
+
+# SOURCE: https://github.com/sparklemotion/nokogiri#synopsis
 
 # Fetch and parse HTML document
 doc = Nokogiri::HTML(open('http://www.nokogiri.org/tutorials/installing_nokogiri.html'))
