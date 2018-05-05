@@ -4,6 +4,9 @@
 # "Hello Ruby!"
 p '5H1ello123 Ru2by!9'.gsub(/\d/, '')
 p '5H1ello123 Ru2by!9'.gsub(/[0-9]/, '')
+
+# "_H_ello___ Ru_by!_"
+p '5H1ello123 Ru2by!9'.gsub(/\d/, '_')
 puts
 
 # "5112329"
