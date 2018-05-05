@@ -1,4 +1,10 @@
 #! /usr/bin/env ruby
 
 
-File.write('hello world.txt', 'Hello World!' + "\n" + 'Привет мир!')
+text = 'Hello World!' + "\n" + 'Привет мир!'
+
+File.write('hello world.txt', text)
+
+File.open("hello world 2.txt", "wb") do |f|
+  f.write(text)
+end
