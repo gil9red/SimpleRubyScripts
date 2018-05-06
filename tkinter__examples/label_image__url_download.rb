@@ -3,7 +3,7 @@
 
 require 'tk'
 require 'open-uri'
-require "base64"
+require 'base64'
 
 
 def center_window(root, width=300, height=200)
