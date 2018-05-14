@@ -10,6 +10,7 @@
 # TODO: continue / next    https://stackoverflow.com/questions/4010039/equivalent-of-continue-in-ruby
 # TODO: join url
 # TODO: base file name
+# TODO: append regexp for https://github.com/gil9red/SimplePyScripts/blob/f8d8108f2fc972157260b35ec7d317aca1950050/regexp_examples/find_groups_of_repeating_sequences.py
 
 ##p 'Hello World  '.empty?
 ##p ''.empty?
